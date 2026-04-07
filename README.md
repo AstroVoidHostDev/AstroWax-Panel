@@ -50,7 +50,8 @@ sudo apt-get install -y nodejs git unzip && \
 cd panel && \
 npm install --legacy-peer-deps && \
 npm run seed && \
-npm run createUser && \ ```
+npm run createUser && \ 
 
+# To Start Panel
 node.
 
