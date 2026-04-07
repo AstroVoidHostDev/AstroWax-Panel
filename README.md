@@ -42,6 +42,6 @@
 > Get up and running instantly with this single command. Ideal for testing or rapid deployment.
 
 ```bash
-sudo apt-get update -y && sudo apt-get install -y python3 python3-pip python3-dev build-essential libssl-dev && sudo apt-get purge -y nodejs npm && sudo rm -rf /usr/local/bin/node /usr/local/bin/npm /usr/local/lib/node_modules && curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt-get install -y nodejs && cd ~ && rm -rf AstroWax-Panel && git clone https://github.com/AstroVoidHostDev/AstroWax-Panel && cd AstroWax-Panel && npm install sqlite3 --save && npm install --legacy-peer-deps && apt install zip -y && unzip panel.zip && cd panel && npm run seed && npm run createUser && node .
+cd && sudo apt-get update -y && sudo apt-get install -y python3 python3-pip python3-dev build-essential libssl-dev && sudo apt-get purge -y nodejs npm && sudo rm -rf /usr/local/bin/node /usr/local/bin/npm /usr/local/lib/node_modules && curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt-get install -y nodejs && git clone https://github.com/AstroVoidHostDev/AstroWax-Panel && cd AstroWax-Panel && rm -rf node_modules package-lock.json && npm cache clean --force && npm install axios sqlite3 --save && npm install --legacy-peer-deps && apt install zip -y && unzip panel.zip && cd panel && npm run seed && npm run createUser && node .
 
 
