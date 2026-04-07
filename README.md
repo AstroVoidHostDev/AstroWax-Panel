@@ -42,7 +42,7 @@
 > Get up and running instantly with this single command. Ideal for testing or rapid deployment.
 
 ```bash
-sudo apt-get update && sudo apt-get install -y python3 python3-pip python3-dev build-essential libssl-dev && curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt-get install -y nodejs && rm -rf node_modules package-lock.json && npm cache clean --force && npm install --legacy-peer-deps --force && chmod -R 755 storage && npm rebuild && \
+sudo apt-get update && sudo apt-get install -y python3 python3-pip python3-dev build-essential libssl-dev && curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt-get install -y nodejs && rm -rf node_modules package-lock.json && npm cache clean --force && npm install --legacy-peer-deps --force && chmod -R 755 storage && npm rebuild && 
 git clone https://github.com/AstroVoidHostDev/AstroWax-Panel && \
 cd AstroWax-Panel && \
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && \
