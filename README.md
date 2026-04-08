@@ -33,6 +33,8 @@
 
 > **Philosophy:** Fast • Secure • Developer Friendly
 
+**POWERED BY TERYX**
+
 ---
 
 ## ⚡ Quick Install
