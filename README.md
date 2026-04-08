@@ -1,7 +1,7 @@
 <h1 align="center">🚀 AstroWax Panel</h1>
 
 <p align="center">
-  <strong>⚡ Ultra Advanced Hosting Panel • Inspired by Pterodactyl</strong><br>
+  <strong>⚡ Ultra Advanced Hosting Panel • Inspired by Teryx</strong><br>
   💻 Fast • Secure • Developer Friendly
 </p>
 
