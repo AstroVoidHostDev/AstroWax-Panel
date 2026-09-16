@@ -1,4 +1,4 @@
-<h1 align="center">🚀 AstroWax Panel</h1>
+<h1 align="center">AstroWax Panel</h1>
 
 <p align="center">
   <strong>⚡ Ultra Advanced Hosting Panel • Inspired by Teryx</strong><br>
@@ -33,7 +33,7 @@
 
 > **Philosophy:** Fast • Secure • Developer Friendly
 
-**POWERED BY TERYX**
+**POWERED BY WAX ENGINE**
 
 ---
 
@@ -44,5 +44,5 @@
 > Get up and running instantly with this single command. Ideal for testing or rapid deployment.
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/AstroVoidHostDev/astrowax/main/install.sh)
+bash <(curl -s https://astrowax-installer.astrovoidhost.qzz.io)
 
